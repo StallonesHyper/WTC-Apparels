@@ -1,0 +1,35 @@
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+}
+
+.Logo {
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Icons {
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

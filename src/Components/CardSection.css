@@ -1,0 +1,8 @@
+.CardSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1240px;
+  margin: auto;
+  padding: 0 1rem; */
+}

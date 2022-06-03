@@ -1,0 +1,28 @@
+.productImage {
+  height: 450px;
+}
+.CardBorder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 200;
+}
+
+p {
+  font-family: "Poppins" sans-serif;
+  font-weight: 300;
+  margin: 0.5rem;
+}
+
+.Card {
+  box-shadow: horizontal offset;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
