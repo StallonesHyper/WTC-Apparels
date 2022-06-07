@@ -10,31 +10,36 @@ import Divider from "@mui/material/Divider";
 import "./CardSection.css";
 function CardSection() {
   return (
-    <div className="CardSection">
-      <Card
-        productImage={White}
-        productName="Relaxed White Hoodie"
-        productPrice="1999/-"
-      ></Card>
-      <Card
-        productImage={Pink}
-        productName="Relaxed Pink Hoodie"
-        productPrice="1999/-"
-      ></Card>
-      <Card
-        productImage={Blue}
-        productName="Relaxed Blue Hoodie"
-        productPrice="1999/-"
-      ></Card>
-      <Card
-        productImage={Grey}
-        productName="Relaxed Grey Hoodie"
-        productPrice="1999/-"
-      ></Card>
-
-      <Divider variant="middle" />
-      {/* NOTE: Divider Not Rendering */}
-    </div>
+    <>
+      <h2 className="SectionHeading" style={{}}>
+        Featured Products
+      </h2>
+      {/* <Divider variant="middle"></Divider> */}
+      <div className="CardSection">
+        <Card
+          productImage={White}
+          productName="Relaxed White Hoodie"
+          productPrice="1999/-"
+        ></Card>
+        <Card
+          productImage={Pink}
+          productName="Relaxed Pink Hoodie"
+          productPrice="1999/-"
+        ></Card>
+        <Card
+          productImage={Blue}
+          productName="Relaxed Blue Hoodie"
+          productPrice="1999/-"
+        ></Card>
+        <Card
+          productImage={Grey}
+          productName="Relaxed Grey Hoodie"
+          productPrice="1999/-"
+        ></Card>
+        {/* NOTE: Divider Not Rendering */}
+      </div>
+      {/* <Divider variant="middle" width="2%"></Divider> */}
+    </>
   );
 }
 
