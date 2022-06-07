@@ -4,6 +4,9 @@ import White from "../ASSETS/White.jpeg";
 import Pink from "../ASSETS/Pink.jpeg";
 import Grey from "../ASSETS/Grey.jpeg";
 import Blue from "../ASSETS/Blue.jpeg";
+
+import Divider from "@mui/material/Divider";
+
 import "./CardSection.css";
 function CardSection() {
   return (
@@ -28,6 +31,9 @@ function CardSection() {
         productName="Relaxed Grey Hoodie"
         productPrice="1999/-"
       ></Card>
+
+      <Divider variant="middle" />
+      {/* NOTE: Divider Not Rendering */}
     </div>
   );
 }

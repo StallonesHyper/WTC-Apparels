@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
-import Swiper from "./Swiper";
 
 function Home() {
   return (
     <div className="Home">
-      <Swiper></Swiper>
+      <div>
+        <h1 className="HeroText">"We Simplify Fashion"</h1>
+        <button className="HeroButton">Shop Now</button>
+      </div>
     </div>
   );
 }

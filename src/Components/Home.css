@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.Home {
+  background-image: url("../ASSETS/ShopFemale.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.HeroText {
+  font-family: "Lobster", cursive;
+  color: aliceblue;
+  font-size: 6rem;
+  margin: 2rem;
+}
+
+.HeroButton {
+  background-color: rgba(0, 0, 0, 0);
+  height: 3rem;
+  width: 8rem;
+  font-family: Impact, sans-serif;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.HeroButton:hover {
+  color: black;
+}
