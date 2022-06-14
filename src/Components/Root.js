@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import CardSection from "./CardSection";
+
 function Root() {
   return (
     <div className="Root">
@@ -14,4 +15,4 @@ function Root() {
 
 export default Root;
 
-// NOTE: Implement React Routerr
+// NOTE: Implement React Router

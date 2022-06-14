@@ -5,6 +5,7 @@ function Womens() {
   return (
     <div className="Womens-Section">
       <NavBar></NavBar>
+      
     </div>
   );
 }
