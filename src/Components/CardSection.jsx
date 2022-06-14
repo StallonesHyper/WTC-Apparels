@@ -12,7 +12,6 @@ import LadiesFirst from "../ASSETS/LadiesFirst.jpg";
 import LadiesSecond from "../ASSETS/LadiesSecond.jpg";
 import LadiesThird from "../ASSETS/LadiesThird.jpg";
 import LadiesFourth from "../ASSETS/LadiesFourth.jpg";
-import Divider from "@mui/material/Divider";
 
 import "./CardSection.css";
 function CardSection() {

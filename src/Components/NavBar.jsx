@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { BiSearch } from "react-icons/bi";
 import { BsPerson } from "react-icons/bs";
 import { BsFillBagFill } from "react-icons/bs";
+import { Link } from "react-router";
 function NavBar() {
   return (
     <div className="NavBar">
