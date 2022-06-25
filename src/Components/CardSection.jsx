@@ -12,13 +12,13 @@ import LadiesFirst from "../ASSETS/LadiesFirst.jpg";
 import LadiesSecond from "../ASSETS/LadiesSecond.jpg";
 import LadiesThird from "../ASSETS/LadiesThird.jpg";
 import LadiesFourth from "../ASSETS/LadiesFourth.jpg";
+import { Link } from "react-router-dom";
 
 import "./CardSection.css";
 function CardSection() {
   return (
     <>
       <h2 className="SectionHeading">Featured Products:</h2>
-      {/* <Divider variant="middle"></Divider> */}
       <div className="CardSection">
         <Card
           productImage={White}
@@ -43,9 +43,10 @@ function CardSection() {
         {/* NOTE: Divider Not Rendering */}
       </div>
       <div className="EndButton">
-        <button className="SeeMore">See More</button>
+        <Link to="/shop" className="Link">
+          <button className="SeeMore">See More</button>
+        </Link>
       </div>
-      {/* <Divider variant="middle" width="2%"></Divider> */}
 
       <h2 className="SectionHeading">Men's Collection:</h2>
       <div className="CardSection">
@@ -72,7 +73,9 @@ function CardSection() {
       </div>
 
       <div className="EndButton">
-        <button className="SeeMore">See More</button>
+        <Link to="/men" className="Link">
+          <button className="SeeMore">See More</button>
+        </Link>
       </div>
 
       <h2 className="SectionHeading">Women's Collection:</h2>
@@ -100,7 +103,9 @@ function CardSection() {
       </div>
 
       <div className="EndButton">
-        <button className="SeeMore">See More</button>
+        <Link to="/women" className="Link">
+          <button className="SeeMore">See More</button>
+        </Link>
       </div>
     </>
   );

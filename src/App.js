@@ -5,6 +5,7 @@ import Navigation from "./Components/Navigation";
 import Womens from "./Routes/Womens";
 import Mens from "./Routes/Mens";
 import Accessories from "./Routes/Accessories";
+import Shop from "./Routes/Shop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             path="accessories"
             element={<Accessories></Accessories>}
           ></Route>
+          <Route path="shop" element={<Shop></Shop>}></Route>
         </Route>
       </Routes>
     </div>

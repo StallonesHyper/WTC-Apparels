@@ -1,0 +1,9 @@
+.Womens {
+  /* max-width: 1240px;
+    margin: auto;
+    padding: 0 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
