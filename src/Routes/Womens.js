@@ -3,7 +3,7 @@ import React from "react";
 function Womens() {
   return (
     <div className="Womens-Section">
-      <h1>Women's Section</h1>
+      <h1>Women's Collection</h1>
     </div>
   );
 }

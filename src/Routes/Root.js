@@ -1,12 +1,10 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Home from "./Home";
-import CardSection from "./CardSection";
+import Home from "../Components/Home";
+import CardSection from "../Components/CardSection";
 
 function Root() {
   return (
     <div className="Root">
-      <NavBar></NavBar>
       <Home></Home>
       <CardSection></CardSection>
     </div>
@@ -14,5 +12,3 @@ function Root() {
 }
 
 export default Root;
-
-// NOTE: Implement React Router
