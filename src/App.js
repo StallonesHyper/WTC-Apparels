@@ -6,6 +6,7 @@ import Womens from "./Routes/Womens";
 import Mens from "./Routes/Mens";
 import Accessories from "./Routes/Accessories";
 import Shop from "./Routes/Shop";
+import SignIn from "./Routes/SignIn";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             element={<Accessories></Accessories>}
           ></Route>
           <Route path="shop" element={<Shop></Shop>}></Route>
+          <Route path="signin" element={<SignIn></SignIn>}></Route>
         </Route>
       </Routes>
     </div>

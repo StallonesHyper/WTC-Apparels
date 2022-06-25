@@ -26,7 +26,10 @@ function NavBar() {
       </ul>
       <div className="RightMenu">
         <BiSearch className="Icons"></BiSearch>
-        <BsPerson className="Icons"></BsPerson>
+        {/* NOTE: Authentication Link */}
+        <Link to="/signin">
+          <BsPerson className="Icons"></BsPerson>
+        </Link>
         <BsFillBagFill className="Icons"></BsFillBagFill>
       </div>
     </div>

@@ -8,7 +8,7 @@ function Card(props) {
         <img src={props.productImage} alt="Hoodies" className="productImage" />
         <h3>{props.productName}</h3>
         <p>{props.productPrice}</p>
-        <button>Buy Now</button>
+        <button className="BuyButton">Buy Now</button>
       </div>
     </div>
   );
