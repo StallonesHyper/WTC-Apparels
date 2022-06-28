@@ -1,21 +1,29 @@
 import React from "react";
 import Card from "../Components/Card";
-import MensFirst from "../ASSETS/MensFirst.jpg";
-import MensSecond from "../ASSETS/MensSecond.jpg";
-import MensThird from "../ASSETS/MensThird.jpg";
-import MensFourth from "../ASSETS/MensFourth.jpg";
+// NOTE: Dummpy Imports For Images
+// import MensFirst from "../ASSETS/MensFirst.jpg";
+// import MensSecond from "../ASSETS/MensSecond.jpg";
+// import MensThird from "../ASSETS/MensThird.jpg";
+// import MensFourth from "../ASSETS/MensFourth.jpg";
 import "./Page.Styles/Men.css";
+// NOTE: Import For Mapping Through Data
+import { productsMen } from "../Data";
 
 function Mens() {
   return (
     <div className="Mens">
-      <Card
-        productImage={MensFirst}
-        productName="Stripped Shirt"
-        productPrice="2499/-"
-      ></Card>
+      {productsMen.map((product) => (
+        <Card
+          productImage={product.image}
+          // ERROR: Fix Props Intake Images
+          productName={product.name}
+          productPrice={product.price}
+        ></Card>
+      ))}
 
-      <Card
+      {/* NOTE: Dummpy Components Rendered During Demonstration  */}
+
+      {/* <Card
         productImage={MensSecond}
         productName="Stripped Shirt"
         productPrice="2499/-"
@@ -41,7 +49,7 @@ function Mens() {
         productImage={MensFirst}
         productName="Stripped Shirt"
         productPrice="2499/-"
-      ></Card>
+      ></Card> */}
     </div>
   );
 }
