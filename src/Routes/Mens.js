@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "../Components/Card";
 import MensFirst from "../ASSETS/MensFirst.jpg";
+import MensSecond from "../ASSETS/MensSecond.jpg";
+import MensThird from "../ASSETS/MensThird.jpg";
+import MensFourth from "../ASSETS/MensFourth.jpg";
 import "./Page.Styles/Men.css";
 
 function Mens() {
@@ -13,24 +16,24 @@ function Mens() {
       ></Card>
 
       <Card
-        productImage={MensFirst}
+        productImage={MensSecond}
         productName="Stripped Shirt"
         productPrice="2499/-"
       ></Card>
 
       <Card
-        productImage={MensFirst}
+        productImage={MensThird}
         productName="Stripped Shirt"
         productPrice="2499/-"
       ></Card>
 
       <Card
-        productImage={MensFirst}
+        productImage={MensFourth}
         productName="Stripped Shirt"
         productPrice="2499/-"
       ></Card>
       <Card
-        productImage={MensFirst}
+        productImage={MensSecond}
         productName="Stripped Shirt"
         productPrice="2499/-"
       ></Card>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Card from "./Card.jsx";
 import White from "../ASSETS/White.jpeg";
 import Pink from "../ASSETS/Pink.jpeg";
@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 import "./CardSection.css";
 function CardSection() {
   return (
-    <>
+    <Fragment>
       <h2 className="SectionHeading">Featured Products:</h2>
       <div className="CardSection">
         <Card
@@ -77,7 +77,6 @@ function CardSection() {
           <button className="SeeMore">See More</button>
         </Link>
       </div>
-
       <h2 className="SectionHeading">Women's Collection:</h2>
       <div className="CardSection">
         <Card
@@ -107,7 +106,7 @@ function CardSection() {
           <button className="SeeMore">See More</button>
         </Link>
       </div>
-    </>
+    </Fragment>
   );
 }
 
