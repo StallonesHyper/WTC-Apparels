@@ -18,6 +18,7 @@ function Mens() {
           // ERROR: Fix Props Intake Images
           productName={product.name}
           productPrice={product.price}
+          productid={product._id}
         ></Card>
       ))}
 

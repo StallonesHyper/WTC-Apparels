@@ -7,6 +7,7 @@ import Mens from "./Routes/Mens";
 import Accessories from "./Routes/Accessories";
 import Shop from "./Routes/Shop";
 import SignIn from "./Routes/SignIn";
+import MenProduct from "./Routes/MenProduct";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           ></Route>
           <Route path="shop" element={<Shop></Shop>}></Route>
           <Route path="signin" element={<SignIn></SignIn>}></Route>
+          <Route path="product/:id" element={<MenProduct></MenProduct>}></Route>
         </Route>
       </Routes>
     </div>

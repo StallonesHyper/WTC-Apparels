@@ -28,3 +28,8 @@ p {
   width: 21rem;
   height: 36rem;
 }
+
+.LinkTag {
+  color: black;
+  text-decoration: none;
+}
